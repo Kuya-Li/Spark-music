@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1abbd693-ac52-4a5f-9199-8fceadd4ef8a" name="spark-music">
+        <fileTransfer rootFolder="/opt/bitnami/flask/server" accessType="SFTP" host="127.0.0.1" port="122" sshConfigId="df3adc1e-7079-465e-bd61-2a99ddd73058" sshConfig="root@127.0.0.1:122 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
